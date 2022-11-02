@@ -248,6 +248,14 @@ Alterar a cor de fundo do cartao
     }
 }
 
+#mostrar {
+    display: none;
+}
+
+#passar_mouse:hover #mostrar {
+    display: block;
+}
+
 
 /*fim habilidades*/
 
