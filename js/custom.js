@@ -1,3 +1,9 @@
+new TypeIt("#animation", {
+    strings: "Adson Pereira",
+    speed: 150,
+    loop: true,
+}).go();
+
 $('nav a').click(function(e) {
     e.preventDefault();
     var id = $(this).attr('href'),

@@ -372,34 +372,10 @@ footer span a:hover {
 /* Fim do rodape */
 
 .line {
-    border-right: solid rgba(255, 255, 255, 0.75);
     margin: 0 auto;
     font-size: 3em;
-    overflow: hidden;
-    white-space: nowrap;
     align-items: center;
-}
-
-.typing-animation {
-    animation: blinkCursor 500ms steps(35) infinite normal, typing 3s steps(30) 1s normal both;
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 11.5em;
-    }
-}
-
-@keyframes blinkCursor {
-    from {
-        border-right-color: rgba(255, 255, 255, 0.75);
-    }
-    to {
-        border-right-color: transparent;
-    }
+    white-space: pre-wrap;
 }
 
 .projetos {
