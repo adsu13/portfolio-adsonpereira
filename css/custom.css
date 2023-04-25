@@ -494,3 +494,11 @@ footer span a:hover {
 .git:hover {
     color: #005b8f;
 }
+
+.svg-selenium:hover path:first-of-type {
+    fill: #fff;
+}
+
+.svg-selenium:hover path:not(:first-of-type) {
+    fill: #0063e5;
+}
